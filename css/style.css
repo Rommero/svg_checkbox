@@ -1,0 +1,45 @@
+.svg-checkbox-wrapper {
+    border: 3px solid #e5e9ea;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.svg-checkbox-wrapper.svg-checkbox-checked {
+    border: 3px solid #337AB7;
+}
+
+.svg-checkbox-wrapper.svg-checkbox-disabled {
+    border: 3px solid #b71c1c;
+    stroke: #b71c1c;
+}
+
+.svg-checkbox-wrapper.svg-checkbox-disabled .svg-checkbox-line {
+    stroke: #b71c1c;
+}
+
+.mute-animation {
+    transition: none !important;
+}
+
+svg.svg-checkbox {
+    display: block;
+    margin: 0;
+}
+
+.svg-checkbox-line {
+    stroke: #337AB7;
+    stroke-width: 3px;
+    stroke-linecap: round;
+}
+
+.svg-checkbox-line-animation-first {
+    transition: stroke-dashoffset .1s ease-in-out ;
+}
+
+.svg-checkbox-line-animation-second {
+    transition: stroke-dashoffset .1s ease-in-out .1s;
+}
